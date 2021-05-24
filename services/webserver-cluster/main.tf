@@ -31,7 +31,7 @@ resource "aws_autoscaling_group" "example" {
   max_size = var.max_size
 
   tag {
-    key                 = "Name"
+    key                 = "Name v2"
     value               = "${var.cluster_name}"
     propagate_at_launch = true
   }
